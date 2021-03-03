@@ -9,11 +9,11 @@
 
 /* Funçõe principal */
 int main() {
-    /* Declarações de variáveis */
+    /* Declarações de variáveis */                                          /*Declarei as variaveis e já assumi o valor das moedas.*/
     int moeda;
     float btc=276025.74, usd=5.68, gbp=7.92, eur=6.86, jpy=0.053, valor_usu;
-    // ENTRADA
-    printf("=== Conversor ===\n");
+    // ENTRADA                                              /*No primeiro momento aprensentei as moedas e recolhi os dados do valor a ser convertido*/
+    printf("=== Conversor ===\n");                          /*e qual a moeda que o usuaário deseja utilizar.*/
     printf("Moedas  || Cotação\n\n");
     printf("1- Bitcoin(BTC) || R$%.2f\n", btc);
     printf("2- Dolar(USD)   || R$%.2f\n", usd);
@@ -26,9 +26,9 @@ int main() {
     printf("Moeda para conversão (numero da tabela): ");
     scanf("%d", &moeda);
 
-    switch(moeda) {
-        case 1:
-            printf("Voce converteu %.2f reias em %.2f BTC.",valor_usu, valor_usu/btc);
+    switch(moeda) {                                                                        /*No segundo momento da função principal, usei o "switch - case" para já imprimir*/
+        case 1:                                                                            /* a conversão de reias para a moeda selecionada, colocando um if para verificar*/
+            printf("Voce converteu %.2f reias em %.2f BTC.",valor_usu, valor_usu/btc);     /* se a moeda realmente se encaixa no que foi pedido.*/
             break;
         case 2:
             printf("Voce converteu %.2f reias em %.2f USD.",valor_usu, valor_usu/usd);
