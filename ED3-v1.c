@@ -43,7 +43,7 @@ int main() {
             printf("Voce converteu %.2f reias em %.2f JPY.",valor_usu, valor_usu/jpy);
             break;
         default:
-            printf("Voce não escolheu nenhuma moeda.");
+            printf("Erro ao escolher moeda!!");
 
     if (moeda < 0 || moeda > 5) {
         printf("Erro ao escolher moeda!!");
