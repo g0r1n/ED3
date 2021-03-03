@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1614724486 source:/home/g0r1n/Documentos/proj-ed3/Ed3/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1614734072 source:/home/g0r1n/Documentos/proj-ed3/Ed3/cabeçalho padrão.c
+	<stdio.h>
+
