@@ -28,7 +28,7 @@ int main() {
 
     switch(moeda) {                                                                        /*No segundo momento da função principal, usei o "switch - case" para já imprimir*/
         case 1:                                                                            /* a conversão de reias para a moeda selecionada, colocando um if para verificar*/
-            printf("Voce converteu %.2f reias em %.2f BTC.\n",valor_usu, valor_usu/btc);     /* se a moeda realmente se encaixa no que foi pedido.*/
+            printf("Voce converteu %.2f reias em %.2f BTC.\n",valor_usu, valor_usu/btc);   /* se a moeda realmente se encaixa no que foi pedido.*/
             break;
         case 2:
             printf("Voce converteu %.2f reias em %.2f USD.\n",valor_usu, valor_usu/usd);
